@@ -14,6 +14,7 @@
 
             Polygon poly = new Polygon(3, 13.2f);
             System.Console.WriteLine($"Perimetro: {poly.Perimeter}");
+            poly.SetSides(-1);
         }
     }
 }

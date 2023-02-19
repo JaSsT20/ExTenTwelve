@@ -19,5 +19,13 @@ namespace Cap10
             Perimeter = 0.0f;
         }
 
+        public void SetSides(int Sides)
+        {
+            if(Sides > 0)
+                this.Sides = Sides;
+            else
+                System.Console.WriteLine($"Los lados ingresados no son validos: {Sides}");
+        }
+
     }
 }
