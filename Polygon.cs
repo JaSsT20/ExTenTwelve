@@ -27,5 +27,10 @@ namespace Cap10
                 System.Console.WriteLine($"Los lados ingresados no son validos: {Sides}");
         }
 
+        public override string ToString()
+        {
+            return $"Lados: {Sides} - LargoLagods: {SidesLength} -> Perimetro: {Perimeter}";
+        }
+
     }
 }
