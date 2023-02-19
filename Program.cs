@@ -5,7 +5,11 @@
         public static void Main(String[] args)
         {
             Inventory inventory = new Inventory();
-            System.Console.WriteLine($"{inventory.MaxStock}");
+            System.Console.WriteLine($"Stock MAX: {inventory.MaxStock}");
+            System.Console.WriteLine("___________________________");
+            Students student = new Students("Levid", "Ing.Sistemas");
+            System.Console.WriteLine($"[{student.StudentID}]-{student.Name} [{student.Career}]");
+            System.Console.WriteLine("___________________________");
         }
     }
 }
